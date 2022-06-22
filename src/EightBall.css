@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 
 .black {
@@ -24,4 +25,17 @@
 
 .goldenrod {
 	background-color: goldenrod;
+}
+.EightBall-reset-div {
+	text-align: center;
+}
+
+#EightBall-reset-button {
+	background: slateblue;
+	border: 0;
+	color: white;
+	font-weight: bold;
+	padding: 15px;
+	cursor: pointer;
+	margin: 1rem auto;
 }
