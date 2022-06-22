@@ -26,8 +26,27 @@
 .goldenrod {
 	background-color: goldenrod;
 }
+
+.EightBall-green-text {
+	color: green;
+}
+
+.EightBall-red-text {
+	color: red;
+}
+
+.EightBall-goldenrod-text {
+	color: goldenrod;
+}
+
 .EightBall-reset-div {
 	text-align: center;
+}
+
+.EightBall-color-counter-div {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
 }
 
 #EightBall-reset-button {
