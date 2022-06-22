@@ -10,9 +10,23 @@ const EightBall = ({ answers }) => {
 		setMsg(msg);
 		setColor(color);
 	};
+	const reset = () => {
+		setMsg("Think of a Question");
+		setColor("black");
+	};
 	return (
-		<div className={`EightBall-circle ${color}`} onClick={setMsgAndColor}>
-			<span>{msg}</span>
+		<div>
+			<div
+				className={`EightBall-circle ${color}`}
+				onClick={setMsgAndColor}
+			>
+				<span>{msg}</span>
+			</div>
+			<div className="EightBall-reset-div">
+				<button id={"EightBall-reset-button"} onClick={reset}>
+					Reset
+				</button>
+			</div>
 		</div>
 	);
 };
